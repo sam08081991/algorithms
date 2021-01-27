@@ -16,6 +16,14 @@ import java.util.Set;
  * @author Javarevisited
  */
 public class FindFirstUniqueElement {
+
+    public static void main(String[] args) {
+        System.out.println(FindFirstUniqueElement.getFirstNonRepeatedChar("tthtuong"));
+        System.out.println(FindFirstUniqueElement.firstNonRepeatedCharacter("ssaam"));
+        System.out.println(FindFirstUniqueElement.firstNonRepeatingChar("nguyen"));
+
+    }
+
     /*
      * Using LinkedHashMap to find first non repeated character of String
      * Algorithm :
